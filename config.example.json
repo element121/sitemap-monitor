@@ -1,0 +1,15 @@
+{
+  "dataDir": "./data",
+  "requestTimeoutMs": 20000,
+  "maxSitemapBytes": 52428800,
+  "sites": [
+    {
+      "name": "Example website",
+      "sitemap": "https://example.com/sitemap.xml"
+    },
+    {
+      "name": "Another website",
+      "sitemap": "https://www.example.org/sitemap_index.xml"
+    }
+  ]
+}

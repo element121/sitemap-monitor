@@ -1,0 +1,21 @@
+{
+  "name": "sitemap-monitor",
+  "version": "1.0.0",
+  "description": "Track additions, modifications, and removals in website sitemaps.",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "monitor": "node dist/cli.js run",
+    "changelog": "node dist/cli.js changelog",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
