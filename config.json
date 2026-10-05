@@ -1,0 +1,15 @@
+{
+  "dataDir": "./data",
+  "requestTimeoutMs": 20000,
+  "maxSitemapBytes": 52428800,
+  "sites": [
+    {
+      "name": "TopG",
+      "sitemap": "https://topgear.com/sitemap.xml"
+    },
+    {
+      "name": "OS",
+      "sitemap": "https://www.ordnancesurvey.co.uk/sitemap.xml"
+    }
+  ]
+}
